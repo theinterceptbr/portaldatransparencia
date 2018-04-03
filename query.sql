@@ -1,6 +1,6 @@
 
 /*Filtra CML e ações de apoio à seg. pública no RJ*/
-CREATE TABLE as cml AS SELECT * FROM gastos_diretos 
+CREATE TABLE cml AS SELECT * FROM gastos_diretos 
 WHERE nome_unidade_gestora LIKE '%MILITAR DO LESTE%' OR codigo_unidade_gestora = '160299' OR codigo_unidade_gestora = '167299';
 
 CREATE TABLE apoio AS SELECT * FROM gastos_diretos 
