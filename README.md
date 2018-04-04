@@ -75,10 +75,12 @@ O arquivo `output/portaldatransparencia.sqlite` será gerado.
 mysql -u [nomedousuario] -p < import.sql
 ```
 
-2. E depois execute as consultas
-```
-mysql -u [nomedousuario] -p < query.sql
-```
+# To-do list
+* Criar índices
+* Reduzir redundância do banco
+
+# Reportagens e consultas derivadas
+* [Operações do Exército no Rio geraram milhões para empresa da "farra do guardanapo"](https://theintercept.com/2018/04/03/exercito-rio-empresa-investigada/) - [repositório](https://github.com/theinterceptbr/gastosmilitares)
 
 # Fonte Dos Dados
 [Dados Abertos do Portal da Tranparência](http://transparencia.gov.br/downloads/)
