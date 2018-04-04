@@ -1,2 +1,16 @@
+*.egg-info/
+*.pyc
+*~
+.*.sw?
+.DS_Store
+.coverage
+.directory
+.env
+.idea/*
+.tox
+MANIFEST
+build/*
+dist/*
 download/*
 output/*
+reg_settings.py
